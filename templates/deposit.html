@@ -6,29 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-        <style>
-            body{background-color: antiquewhite}
-            h1{text-align: center}
-        </style>
-    <title>GO BANK</title>
+    <title>Deposit</title>
   </head>
   <body>
-    <div class= "container col-6 mt-5">
-        <div class="jumbotron">
-                
-            <h1 class="display-4 text-center">Welcome to</h1>
-            <h1 class="display-4 text-center">GO BANK</h1>
-            <hr class="my-4">
-            <div class="text-center">
-                <a class="btn btn-primary btn-lg" method="POST" type="submit"href="register.html">Register</a>
-                <a class="btn btn-primary btn-lg" method="POST" type="submit" href="login.html" >Login</a>
+    <div class="container mt-5">
+        <h1>DEPOSIT</h1>
+        <P>Please complete the folowing information</P>
+        <form action="deposit" method="POST">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="text">Deposit Amount</label>
+              <input type="text" name= "deposit" class="form-control" id="depositAmount" placeholder="Deposit Amount">
             </div>
-        
-    </div>
-  
-</div>
+            
+          </div>
+      
+      <button type="submit" value="login"class="btn btn-primary" href="" >Submit</button>
+    </form>
+      </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
